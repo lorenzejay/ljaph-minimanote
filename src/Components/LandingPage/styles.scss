@@ -1,0 +1,30 @@
+.landingPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-top: 2vh;
+  }
+  .pageLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 14%;
+    margin-top: 2vh;
+    a {
+      color: #333333;
+      text-decoration: none;
+      font-size: 18px;
+      margin: 0 5px;
+    }
+    a:hover {
+      color: #eb1564;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.sidebar {
+  height: 100%;
+  overflow-x: hidden;
+  z-index: 10;
+  position: fixed;
+  color: black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  width: 20vw;
+  margin: 0;
+  display: block;
+  .sidebar-note-titles {
+    padding: 5px 0;
+  }
+  .sidebar-note-titles:hover {
+    color: #333333;
+    background-color: white;
+  }
+  .sidebar-content-85 {
+    height: 90%;
+  }
+  .sidebar-modal {
+    margin-top: auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-top: 1px solid;
+    padding: 5px 0;
+  }
+  ul {
+    height: 90vh;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  li {
+    span {
+      padding-left: 15px;
+      font-size: 1.1rem;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+}

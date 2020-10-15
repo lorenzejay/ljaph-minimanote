@@ -1,0 +1,63 @@
+.note-header {
+  width: 80vw;
+  .change-header-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  button {
+    position: absolute;
+    width: 5vw;
+  }
+  .header-image {
+    width: 80vw;
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  img {
+    vertical-align: middle;
+    position: relative;
+    border-style: none;
+    width: 100%;
+    height: auto;
+    max-height: 20vh;
+  }
+
+  .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  .inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .inputfile:focus + label,
+  .inputfile + label:hover {
+    background-color: red;
+  }
+
+  label {
+    float: right;
+    padding-right: 20px;
+  }
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: grey;
+  .bar {
+    height: 30px;
+    background-color: green;
+  }
+}

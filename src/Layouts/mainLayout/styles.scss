@@ -1,0 +1,13 @@
+.mainlayout {
+  margin-top: 10vh;
+  .mainLayout-flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .notes-display {
+    margin-left: 20vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+}

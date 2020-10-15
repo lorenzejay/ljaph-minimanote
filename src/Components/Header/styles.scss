@@ -1,0 +1,38 @@
+.main-header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #141d26;
+  color: white;
+  height: 10vh;
+  width: 100%;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .logo {
+    margin-left: 5vw;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 30%;
+    li {
+      color: white;
+      list-style: none;
+
+      span {
+        cursor: pointer;
+      }
+    }
+  }
+}

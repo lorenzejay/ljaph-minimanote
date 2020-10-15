@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ljaph-minimanote/static/css/main.6c98db66.chunk.css",
+    "main.js": "/ljaph-minimanote/static/js/main.14d5f790.chunk.js",
+    "main.js.map": "/ljaph-minimanote/static/js/main.14d5f790.chunk.js.map",
+    "runtime-main.js": "/ljaph-minimanote/static/js/runtime-main.b0210007.js",
+    "runtime-main.js.map": "/ljaph-minimanote/static/js/runtime-main.b0210007.js.map",
+    "static/js/2.7a1447ef.chunk.js": "/ljaph-minimanote/static/js/2.7a1447ef.chunk.js",
+    "static/js/2.7a1447ef.chunk.js.map": "/ljaph-minimanote/static/js/2.7a1447ef.chunk.js.map",
+    "index.html": "/ljaph-minimanote/index.html",
+    "precache-manifest.26673e0230c8e2c8c3cfe28e092cbc97.js": "/ljaph-minimanote/precache-manifest.26673e0230c8e2c8c3cfe28e092cbc97.js",
+    "service-worker.js": "/ljaph-minimanote/service-worker.js",
+    "static/css/main.6c98db66.chunk.css.map": "/ljaph-minimanote/static/css/main.6c98db66.chunk.css.map",
+    "static/js/2.7a1447ef.chunk.js.LICENSE.txt": "/ljaph-minimanote/static/js/2.7a1447ef.chunk.js.LICENSE.txt",
+    "static/media/stephan-seeber-PzqrVrfjasc-unsplash.jpg": "/ljaph-minimanote/static/media/stephan-seeber-PzqrVrfjasc-unsplash.250b9ed6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0210007.js",
+    "static/js/2.7a1447ef.chunk.js",
+    "static/css/main.6c98db66.chunk.css",
+    "static/js/main.14d5f790.chunk.js"
+  ]
+}
